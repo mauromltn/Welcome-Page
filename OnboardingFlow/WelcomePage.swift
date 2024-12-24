@@ -15,7 +15,7 @@ struct WelcomePage: View {
 			
 			Text("Welcome to MyApp")
 				.font(.title)
-				.fontWeight(.semibold)
+				.fontWeight(.semibold)  // controllare se si vede meglio bold o semibold alla fine
 				.padding(.top)
 			
 			Text("Description text")

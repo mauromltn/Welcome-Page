@@ -10,10 +10,11 @@ struct ContentView: View {
 		TabView {
 			WelcomePage()
 			FeaturesPage()
+			SignUpPage()
 		}
 		.background(Gradient(colors: gradientColors))
 		.tabViewStyle(.page)
-		.foregroundStyle(.white)
+		.foregroundStyle(.black)
 	}
 }
 

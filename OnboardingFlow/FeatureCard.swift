@@ -18,8 +18,8 @@ struct FeatureCard: View {
 		.padding()
 		.background {
 			RoundedRectangle(cornerRadius: 12)
-				.foregroundStyle(.tint.opacity(0.25))
-				.brightness(-0.4)
+				.foregroundStyle(.tint.opacity(0.9))
+				.brightness(0.1)
 		}
 	}
 }

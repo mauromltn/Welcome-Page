@@ -22,5 +22,4 @@ struct FeaturesPage: View {
 	FeaturesPage()
 		.frame(maxHeight: .infinity)
 		.background(Gradient(colors: gradientColors))
-		.foregroundStyle(.white)
 }
